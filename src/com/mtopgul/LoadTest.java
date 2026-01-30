@@ -15,7 +15,7 @@ public class LoadTest {
     }
 
     private static void test01() {
-        Message2 msg = new Message2();
+        Message1 msg = new Message1();
         msg.setLabel(1);
         msg.setLatitude(500000L);
         msg.setLongitude(250000L);
@@ -35,7 +35,7 @@ public class LoadTest {
     }
 
     private static void test02() {
-        Message1 msg = new Message1();
+        Message2 msg = new Message2();
         msg.setLabel(1);
         msg.setLatitude(500000L);
         msg.setLongitude(250000L);
